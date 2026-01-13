@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+	</PropertyGroup>
+	<ItemGroup>
+		<Content Include="..\configs\sql.madmin.json" Link="configs/sql.madmin.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+	<ItemGroup>
+		<Content Include="..\configs\sql.json" Link="configs/sql.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+	<ItemGroup>
+		<Content Include="..\configs\sql.dev.json" Link="configs/sql.dev.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+	<ItemGroup>
+		<Content Include="..\configs\sql.madmin.dev.json" Link="configs/sql.madmin.dev.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\CalciAI.AuthManager\CalciAI.AuthManager.csproj" />
+		<ProjectReference Include="..\CalciAI.Web\CalciAI.Web.csproj" />
+
+	</ItemGroup>
+
+</Project>

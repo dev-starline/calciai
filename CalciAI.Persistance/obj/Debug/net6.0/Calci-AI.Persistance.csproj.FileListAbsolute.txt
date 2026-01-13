@@ -1,0 +1,5 @@
+D:\Mayur\Calci-AI\Calci-AI.Persistance\obj\Debug\net6.0\Calci-AI.Persistance.csproj.AssemblyReference.cache
+D:\Mayur\Calci-AI\Calci-AI.Persistance\obj\Debug\net6.0\Calci-AI.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mayur\Calci-AI\Calci-AI.Persistance\obj\Debug\net6.0\Calci-AI.Persistance.AssemblyInfoInputs.cache
+D:\Mayur\Calci-AI\Calci-AI.Persistance\obj\Debug\net6.0\Calci-AI.Persistance.AssemblyInfo.cs
+D:\Mayur\Calci-AI\Calci-AI.Persistance\obj\Debug\net6.0\Calci-AI.Persistance.csproj.CoreCompileInputs.cache

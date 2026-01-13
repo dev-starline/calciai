@@ -1,0 +1,12 @@
+D:\code\bbb\Bcube\bin\Debug\net6.0\Bcube.deps.json
+D:\code\bbb\Bcube\bin\Debug\net6.0\Bcube.dll
+D:\code\bbb\Bcube\bin\Debug\net6.0\Bcube.pdb
+D:\code\bbb\Bcube\obj\Debug\net6.0\Bcube.csproj.AssemblyReference.cache
+D:\code\bbb\Bcube\obj\Debug\net6.0\Bcube.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\bbb\Bcube\obj\Debug\net6.0\Bcube.AssemblyInfoInputs.cache
+D:\code\bbb\Bcube\obj\Debug\net6.0\Bcube.AssemblyInfo.cs
+D:\code\bbb\Bcube\obj\Debug\net6.0\Bcube.csproj.CoreCompileInputs.cache
+D:\code\bbb\Bcube\obj\Debug\net6.0\Bcube.dll
+D:\code\bbb\Bcube\obj\Debug\net6.0\refint\Bcube.dll
+D:\code\bbb\Bcube\obj\Debug\net6.0\Bcube.pdb
+D:\code\bbb\Bcube\obj\Debug\net6.0\ref\Bcube.dll

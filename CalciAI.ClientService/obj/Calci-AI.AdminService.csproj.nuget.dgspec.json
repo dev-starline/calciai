@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Mayur\\Calci-AI\\Calci-AI.AdminService\\Calci-AI.AdminService.csproj": {}
+  },
+  "projects": {
+    "D:\\Mayur\\Calci-AI\\Calci-AI.AdminService\\Calci-AI.AdminService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Mayur\\Calci-AI\\Calci-AI.AdminService\\Calci-AI.AdminService.csproj",
+        "projectName": "Calci-AI.AdminService",
+        "projectPath": "D:\\Mayur\\Calci-AI\\Calci-AI.AdminService\\Calci-AI.AdminService.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "D:\\Mayur\\Calci-AI\\Calci-AI.AdminService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Mayur\\Calci-AI\\CalciAI.AdminManager\\CalciAI.AdminManager.csproj": {
+                "projectPath": "D:\\Mayur\\Calci-AI\\CalciAI.AdminManager\\CalciAI.AdminManager.csproj"
+              },
+              "D:\\Mayur\\Calci-AI\\CalciAI.Web\\CalciAI.Web.csproj": {
+                "projectPath": "D:\\Mayur\\Calci-AI\\CalciAI.Web\\CalciAI.Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

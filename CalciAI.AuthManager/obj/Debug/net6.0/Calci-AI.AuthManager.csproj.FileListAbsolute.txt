@@ -1,0 +1,5 @@
+D:\Mayur\Calci-AI\Calci-AI.AuthManager\obj\Debug\net6.0\Calci-AI.AuthManager.csproj.AssemblyReference.cache
+D:\Mayur\Calci-AI\Calci-AI.AuthManager\obj\Debug\net6.0\Calci-AI.AuthManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mayur\Calci-AI\Calci-AI.AuthManager\obj\Debug\net6.0\Calci-AI.AuthManager.AssemblyInfoInputs.cache
+D:\Mayur\Calci-AI\Calci-AI.AuthManager\obj\Debug\net6.0\Calci-AI.AuthManager.AssemblyInfo.cs
+D:\Mayur\Calci-AI\Calci-AI.AuthManager\obj\Debug\net6.0\Calci-AI.AuthManager.csproj.CoreCompileInputs.cache

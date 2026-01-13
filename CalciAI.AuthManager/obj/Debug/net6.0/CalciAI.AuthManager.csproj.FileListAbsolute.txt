@@ -1,0 +1,17 @@
+D:\Mayur\CalciAI\CalciAI.AuthManager\obj\Debug\net6.0\CalciAI.AuthManager.csproj.AssemblyReference.cache
+D:\Mayur\CalciAI\CalciAI.AuthManager\obj\Debug\net6.0\CalciAI.AuthManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mayur\CalciAI\CalciAI.AuthManager\obj\Debug\net6.0\CalciAI.AuthManager.AssemblyInfoInputs.cache
+D:\Mayur\CalciAI\CalciAI.AuthManager\obj\Debug\net6.0\CalciAI.AuthManager.AssemblyInfo.cs
+D:\Mayur\CalciAI\CalciAI.AuthManager\obj\Debug\net6.0\CalciAI.AuthManager.csproj.CoreCompileInputs.cache
+D:\Mayur\CalciAI\CalciAI.AuthManager\bin\Debug\net6.0\CalciAI.AuthManager.deps.json
+D:\Mayur\CalciAI\CalciAI.AuthManager\bin\Debug\net6.0\CalciAI.AuthManager.dll
+D:\Mayur\CalciAI\CalciAI.AuthManager\bin\Debug\net6.0\CalciAI.AuthManager.pdb
+D:\Mayur\CalciAI\CalciAI.AuthManager\bin\Debug\net6.0\CalciAI.dll
+D:\Mayur\CalciAI\CalciAI.AuthManager\bin\Debug\net6.0\CalciAI.Persistance.dll
+D:\Mayur\CalciAI\CalciAI.AuthManager\bin\Debug\net6.0\CalciAI.Persistance.pdb
+D:\Mayur\CalciAI\CalciAI.AuthManager\bin\Debug\net6.0\CalciAI.pdb
+D:\Mayur\CalciAI\CalciAI.AuthManager\obj\Debug\net6.0\CalciAI.AuthManager.csproj.CopyComplete
+D:\Mayur\CalciAI\CalciAI.AuthManager\obj\Debug\net6.0\CalciAI.AuthManager.dll
+D:\Mayur\CalciAI\CalciAI.AuthManager\obj\Debug\net6.0\refint\CalciAI.AuthManager.dll
+D:\Mayur\CalciAI\CalciAI.AuthManager\obj\Debug\net6.0\CalciAI.AuthManager.pdb
+D:\Mayur\CalciAI\CalciAI.AuthManager\obj\Debug\net6.0\ref\CalciAI.AuthManager.dll

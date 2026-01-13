@@ -1,0 +1,17 @@
+D:\Mayur\CalciAI\CalciAI.ClientManager\obj\Debug\net6.0\CalciAI.ClientManager.csproj.AssemblyReference.cache
+D:\Mayur\CalciAI\CalciAI.ClientManager\obj\Debug\net6.0\CalciAI.ClientManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mayur\CalciAI\CalciAI.ClientManager\obj\Debug\net6.0\CalciAI.ClientManager.AssemblyInfoInputs.cache
+D:\Mayur\CalciAI\CalciAI.ClientManager\obj\Debug\net6.0\CalciAI.ClientManager.AssemblyInfo.cs
+D:\Mayur\CalciAI\CalciAI.ClientManager\obj\Debug\net6.0\CalciAI.ClientManager.csproj.CoreCompileInputs.cache
+D:\Mayur\CalciAI\CalciAI.ClientManager\bin\Debug\net6.0\CalciAI.ClientManager.deps.json
+D:\Mayur\CalciAI\CalciAI.ClientManager\bin\Debug\net6.0\CalciAI.ClientManager.dll
+D:\Mayur\CalciAI\CalciAI.ClientManager\bin\Debug\net6.0\CalciAI.ClientManager.pdb
+D:\Mayur\CalciAI\CalciAI.ClientManager\bin\Debug\net6.0\CalciAI.dll
+D:\Mayur\CalciAI\CalciAI.ClientManager\bin\Debug\net6.0\CalciAI.Persistance.dll
+D:\Mayur\CalciAI\CalciAI.ClientManager\bin\Debug\net6.0\CalciAI.Persistance.pdb
+D:\Mayur\CalciAI\CalciAI.ClientManager\bin\Debug\net6.0\CalciAI.pdb
+D:\Mayur\CalciAI\CalciAI.ClientManager\obj\Debug\net6.0\CalciAI.ClientManager.csproj.CopyComplete
+D:\Mayur\CalciAI\CalciAI.ClientManager\obj\Debug\net6.0\CalciAI.ClientManager.dll
+D:\Mayur\CalciAI\CalciAI.ClientManager\obj\Debug\net6.0\refint\CalciAI.ClientManager.dll
+D:\Mayur\CalciAI\CalciAI.ClientManager\obj\Debug\net6.0\CalciAI.ClientManager.pdb
+D:\Mayur\CalciAI\CalciAI.ClientManager\obj\Debug\net6.0\ref\CalciAI.ClientManager.dll

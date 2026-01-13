@@ -1,0 +1,15 @@
+D:\Mayur\CalciAI\CalciAI.Persistance\bin\Release\net6.0\CalciAI.Persistance.deps.json
+D:\Mayur\CalciAI\CalciAI.Persistance\bin\Release\net6.0\CalciAI.Persistance.dll
+D:\Mayur\CalciAI\CalciAI.Persistance\bin\Release\net6.0\CalciAI.Persistance.pdb
+D:\Mayur\CalciAI\CalciAI.Persistance\bin\Release\net6.0\CalciAI.dll
+D:\Mayur\CalciAI\CalciAI.Persistance\bin\Release\net6.0\CalciAI.pdb
+D:\Mayur\CalciAI\CalciAI.Persistance\obj\Release\net6.0\CalciAI.Persistance.csproj.AssemblyReference.cache
+D:\Mayur\CalciAI\CalciAI.Persistance\obj\Release\net6.0\CalciAI.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mayur\CalciAI\CalciAI.Persistance\obj\Release\net6.0\CalciAI.Persistance.AssemblyInfoInputs.cache
+D:\Mayur\CalciAI\CalciAI.Persistance\obj\Release\net6.0\CalciAI.Persistance.AssemblyInfo.cs
+D:\Mayur\CalciAI\CalciAI.Persistance\obj\Release\net6.0\CalciAI.Persistance.csproj.CoreCompileInputs.cache
+D:\Mayur\CalciAI\CalciAI.Persistance\obj\Release\net6.0\CalciAI.Persistance.csproj.CopyComplete
+D:\Mayur\CalciAI\CalciAI.Persistance\obj\Release\net6.0\CalciAI.Persistance.dll
+D:\Mayur\CalciAI\CalciAI.Persistance\obj\Release\net6.0\refint\CalciAI.Persistance.dll
+D:\Mayur\CalciAI\CalciAI.Persistance\obj\Release\net6.0\CalciAI.Persistance.pdb
+D:\Mayur\CalciAI\CalciAI.Persistance\obj\Release\net6.0\ref\CalciAI.Persistance.dll

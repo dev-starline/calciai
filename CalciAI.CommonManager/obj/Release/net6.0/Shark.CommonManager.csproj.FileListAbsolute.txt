@@ -1,0 +1,17 @@
+D:\code\Shark\Shark.CommonManager\bin\Release\net6.0\Shark.CommonManager.deps.json
+D:\code\Shark\Shark.CommonManager\bin\Release\net6.0\Shark.CommonManager.dll
+D:\code\Shark\Shark.CommonManager\bin\Release\net6.0\Shark.CommonManager.pdb
+D:\code\Shark\Shark.CommonManager\bin\Release\net6.0\Shark.dll
+D:\code\Shark\Shark.CommonManager\bin\Release\net6.0\Shark.Persistance.dll
+D:\code\Shark\Shark.CommonManager\bin\Release\net6.0\Shark.Persistance.pdb
+D:\code\Shark\Shark.CommonManager\bin\Release\net6.0\Shark.pdb
+D:\code\Shark\Shark.CommonManager\obj\Release\net6.0\Shark.CommonManager.csproj.AssemblyReference.cache
+D:\code\Shark\Shark.CommonManager\obj\Release\net6.0\Shark.CommonManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\Shark\Shark.CommonManager\obj\Release\net6.0\Shark.CommonManager.AssemblyInfoInputs.cache
+D:\code\Shark\Shark.CommonManager\obj\Release\net6.0\Shark.CommonManager.AssemblyInfo.cs
+D:\code\Shark\Shark.CommonManager\obj\Release\net6.0\Shark.CommonManager.csproj.CoreCompileInputs.cache
+D:\code\Shark\Shark.CommonManager\obj\Release\net6.0\Shark.CommonManager.csproj.CopyComplete
+D:\code\Shark\Shark.CommonManager\obj\Release\net6.0\Shark.CommonManager.dll
+D:\code\Shark\Shark.CommonManager\obj\Release\net6.0\refint\Shark.CommonManager.dll
+D:\code\Shark\Shark.CommonManager\obj\Release\net6.0\Shark.CommonManager.pdb
+D:\code\Shark\Shark.CommonManager\obj\Release\net6.0\ref\Shark.CommonManager.dll

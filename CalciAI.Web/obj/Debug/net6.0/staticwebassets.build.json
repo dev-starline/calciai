@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "HqbZOR4pM+0ySOiW4UzDIlIjXRDyH4C93vHOJFxe1sw=",
+  "Source": "CalciAI.Web",
+  "BasePath": "_content/CalciAI.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

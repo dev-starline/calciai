@@ -1,0 +1,12 @@
+D:\Mayur\Calci-AI\Calci-AI\bin\Debug\net6.0\Calci-AI.deps.json
+D:\Mayur\Calci-AI\Calci-AI\bin\Debug\net6.0\Calci-AI.dll
+D:\Mayur\Calci-AI\Calci-AI\bin\Debug\net6.0\Calci-AI.pdb
+D:\Mayur\Calci-AI\Calci-AI\obj\Debug\net6.0\Calci-AI.csproj.AssemblyReference.cache
+D:\Mayur\Calci-AI\Calci-AI\obj\Debug\net6.0\Calci-AI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mayur\Calci-AI\Calci-AI\obj\Debug\net6.0\Calci-AI.AssemblyInfoInputs.cache
+D:\Mayur\Calci-AI\Calci-AI\obj\Debug\net6.0\Calci-AI.AssemblyInfo.cs
+D:\Mayur\Calci-AI\Calci-AI\obj\Debug\net6.0\Calci-AI.csproj.CoreCompileInputs.cache
+D:\Mayur\Calci-AI\Calci-AI\obj\Debug\net6.0\Calci-AI.dll
+D:\Mayur\Calci-AI\Calci-AI\obj\Debug\net6.0\refint\Calci-AI.dll
+D:\Mayur\Calci-AI\Calci-AI\obj\Debug\net6.0\Calci-AI.pdb
+D:\Mayur\Calci-AI\Calci-AI\obj\Debug\net6.0\ref\Calci-AI.dll

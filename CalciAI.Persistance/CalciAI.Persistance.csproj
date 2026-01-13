@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entities\DealerMobile\**" />
+    <EmbeddedResource Remove="Entities\DealerMobile\**" />
+    <None Remove="Entities\DealerMobile\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.17.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <ProjectReference Include="..\CalciAI\CalciAI.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+D:\code\bbb\Bcube.Persistance\bin\Debug\net6.0\Bcube.Persistance.deps.json
+D:\code\bbb\Bcube.Persistance\bin\Debug\net6.0\Bcube.Persistance.dll
+D:\code\bbb\Bcube.Persistance\bin\Debug\net6.0\Bcube.Persistance.pdb
+D:\code\bbb\Bcube.Persistance\bin\Debug\net6.0\Bcube.dll
+D:\code\bbb\Bcube.Persistance\bin\Debug\net6.0\Bcube.pdb
+D:\code\bbb\Bcube.Persistance\obj\Debug\net6.0\Bcube.Persistance.csproj.AssemblyReference.cache
+D:\code\bbb\Bcube.Persistance\obj\Debug\net6.0\Bcube.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\bbb\Bcube.Persistance\obj\Debug\net6.0\Bcube.Persistance.AssemblyInfoInputs.cache
+D:\code\bbb\Bcube.Persistance\obj\Debug\net6.0\Bcube.Persistance.AssemblyInfo.cs
+D:\code\bbb\Bcube.Persistance\obj\Debug\net6.0\Bcube.Persistance.csproj.CoreCompileInputs.cache
+D:\code\bbb\Bcube.Persistance\obj\Debug\net6.0\Bcube.Persistance.csproj.CopyComplete
+D:\code\bbb\Bcube.Persistance\obj\Debug\net6.0\Bcube.Persistance.dll
+D:\code\bbb\Bcube.Persistance\obj\Debug\net6.0\refint\Bcube.Persistance.dll
+D:\code\bbb\Bcube.Persistance\obj\Debug\net6.0\Bcube.Persistance.pdb
+D:\code\bbb\Bcube.Persistance\obj\Debug\net6.0\ref\Bcube.Persistance.dll

@@ -1,0 +1,12 @@
+D:\Mayur\CalciAI\CalciAI\bin\Release\net6.0\CalciAI.deps.json
+D:\Mayur\CalciAI\CalciAI\bin\Release\net6.0\CalciAI.dll
+D:\Mayur\CalciAI\CalciAI\bin\Release\net6.0\CalciAI.pdb
+D:\Mayur\CalciAI\CalciAI\obj\Release\net6.0\CalciAI.csproj.AssemblyReference.cache
+D:\Mayur\CalciAI\CalciAI\obj\Release\net6.0\CalciAI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mayur\CalciAI\CalciAI\obj\Release\net6.0\CalciAI.AssemblyInfoInputs.cache
+D:\Mayur\CalciAI\CalciAI\obj\Release\net6.0\CalciAI.AssemblyInfo.cs
+D:\Mayur\CalciAI\CalciAI\obj\Release\net6.0\CalciAI.csproj.CoreCompileInputs.cache
+D:\Mayur\CalciAI\CalciAI\obj\Release\net6.0\CalciAI.dll
+D:\Mayur\CalciAI\CalciAI\obj\Release\net6.0\refint\CalciAI.dll
+D:\Mayur\CalciAI\CalciAI\obj\Release\net6.0\CalciAI.pdb
+D:\Mayur\CalciAI\CalciAI\obj\Release\net6.0\ref\CalciAI.dll

@@ -1,0 +1,5 @@
+D:\Mayur\Calci-AI\Calci-AI.AdminManager\obj\Debug\net6.0\Calci-AI.AdminManager.csproj.AssemblyReference.cache
+D:\Mayur\Calci-AI\Calci-AI.AdminManager\obj\Debug\net6.0\Calci-AI.AdminManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mayur\Calci-AI\Calci-AI.AdminManager\obj\Debug\net6.0\Calci-AI.AdminManager.AssemblyInfoInputs.cache
+D:\Mayur\Calci-AI\Calci-AI.AdminManager\obj\Debug\net6.0\Calci-AI.AdminManager.AssemblyInfo.cs
+D:\Mayur\Calci-AI\Calci-AI.AdminManager\obj\Debug\net6.0\Calci-AI.AdminManager.csproj.CoreCompileInputs.cache

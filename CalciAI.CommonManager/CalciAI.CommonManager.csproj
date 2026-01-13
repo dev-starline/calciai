@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.CloudFront" Version="3.7.302.15" />
+    <PackageReference Include="AWSSDK.S3" Version="3.7.307.31" />
+    <PackageReference Include="System.ServiceProcess.ServiceController" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CalciAI.Persistance\CalciAI.Persistance.csproj" />
+  </ItemGroup>
+
+
+</Project>
