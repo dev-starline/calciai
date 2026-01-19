@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Mayur\\CalciAI\\CalciAI.MaintenanceService\\CalciAI.MaintenanceService.csproj": {}
+    "D:\\code\\CalciAI\\CalciAI.MaintenanceService\\CalciAI.MaintenanceService.csproj": {}
   },
   "projects": {
-    "D:\\Mayur\\CalciAI\\CalciAI.CommonManager\\CalciAI.CommonManager.csproj": {
+    "D:\\code\\CalciAI\\CalciAI.CommonManager\\CalciAI.CommonManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mayur\\CalciAI\\CalciAI.CommonManager\\CalciAI.CommonManager.csproj",
+        "projectUniqueName": "D:\\code\\CalciAI\\CalciAI.CommonManager\\CalciAI.CommonManager.csproj",
         "projectName": "CalciAI.CommonManager",
-        "projectPath": "D:\\Mayur\\CalciAI\\CalciAI.CommonManager\\CalciAI.CommonManager.csproj",
+        "projectPath": "D:\\code\\CalciAI\\CalciAI.CommonManager\\CalciAI.CommonManager.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Mayur\\CalciAI\\CalciAI.CommonManager\\obj\\",
+        "outputPath": "D:\\code\\CalciAI\\CalciAI.CommonManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Mayur\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj": {
-                "projectPath": "D:\\Mayur\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj"
+              "D:\\code\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj": {
+                "projectPath": "D:\\code\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "D:\\Mayur\\CalciAI\\CalciAI.MaintenanceService\\CalciAI.MaintenanceService.csproj": {
+    "D:\\code\\CalciAI\\CalciAI.MaintenanceService\\CalciAI.MaintenanceService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mayur\\CalciAI\\CalciAI.MaintenanceService\\CalciAI.MaintenanceService.csproj",
+        "projectUniqueName": "D:\\code\\CalciAI\\CalciAI.MaintenanceService\\CalciAI.MaintenanceService.csproj",
         "projectName": "CalciAI.MaintenanceService",
-        "projectPath": "D:\\Mayur\\CalciAI\\CalciAI.MaintenanceService\\CalciAI.MaintenanceService.csproj",
+        "projectPath": "D:\\code\\CalciAI\\CalciAI.MaintenanceService\\CalciAI.MaintenanceService.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Mayur\\CalciAI\\CalciAI.MaintenanceService\\obj\\",
+        "outputPath": "D:\\code\\CalciAI\\CalciAI.MaintenanceService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -101,14 +101,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Mayur\\CalciAI\\CalciAI.CommonManager\\CalciAI.CommonManager.csproj": {
-                "projectPath": "D:\\Mayur\\CalciAI\\CalciAI.CommonManager\\CalciAI.CommonManager.csproj"
+              "D:\\code\\CalciAI\\CalciAI.CommonManager\\CalciAI.CommonManager.csproj": {
+                "projectPath": "D:\\code\\CalciAI\\CalciAI.CommonManager\\CalciAI.CommonManager.csproj"
               },
-              "D:\\Mayur\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj": {
-                "projectPath": "D:\\Mayur\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj"
+              "D:\\code\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj": {
+                "projectPath": "D:\\code\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj"
               },
-              "D:\\Mayur\\CalciAI\\CalciAI\\CalciAI.csproj": {
-                "projectPath": "D:\\Mayur\\CalciAI\\CalciAI\\CalciAI.csproj"
+              "D:\\code\\CalciAI\\CalciAI\\CalciAI.csproj": {
+                "projectPath": "D:\\code\\CalciAI\\CalciAI\\CalciAI.csproj"
               }
             }
           }
@@ -172,14 +172,14 @@
         }
       }
     },
-    "D:\\Mayur\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj": {
+    "D:\\code\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mayur\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj",
+        "projectUniqueName": "D:\\code\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj",
         "projectName": "CalciAI.Persistance",
-        "projectPath": "D:\\Mayur\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj",
+        "projectPath": "D:\\code\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Mayur\\CalciAI\\CalciAI.Persistance\\obj\\",
+        "outputPath": "D:\\code\\CalciAI\\CalciAI.Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -196,8 +196,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Mayur\\CalciAI\\CalciAI\\CalciAI.csproj": {
-                "projectPath": "D:\\Mayur\\CalciAI\\CalciAI\\CalciAI.csproj"
+              "D:\\code\\CalciAI\\CalciAI\\CalciAI.csproj": {
+                "projectPath": "D:\\code\\CalciAI\\CalciAI\\CalciAI.csproj"
               }
             }
           }
@@ -241,14 +241,14 @@
         }
       }
     },
-    "D:\\Mayur\\CalciAI\\CalciAI\\CalciAI.csproj": {
+    "D:\\code\\CalciAI\\CalciAI\\CalciAI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mayur\\CalciAI\\CalciAI\\CalciAI.csproj",
+        "projectUniqueName": "D:\\code\\CalciAI\\CalciAI\\CalciAI.csproj",
         "projectName": "CalciAI",
-        "projectPath": "D:\\Mayur\\CalciAI\\CalciAI\\CalciAI.csproj",
+        "projectPath": "D:\\code\\CalciAI\\CalciAI\\CalciAI.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Mayur\\CalciAI\\CalciAI\\obj\\",
+        "outputPath": "D:\\code\\CalciAI\\CalciAI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",

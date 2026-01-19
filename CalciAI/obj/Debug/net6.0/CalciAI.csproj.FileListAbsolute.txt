@@ -22,3 +22,15 @@ D:\Mayur\CalciAI\CalciAI\obj\Debug\net6.0\CalciAI.dll
 D:\Mayur\CalciAI\CalciAI\obj\Debug\net6.0\refint\CalciAI.dll
 D:\Mayur\CalciAI\CalciAI\obj\Debug\net6.0\CalciAI.pdb
 D:\Mayur\CalciAI\CalciAI\obj\Debug\net6.0\ref\CalciAI.dll
+D:\code\CalciAI\CalciAI\bin\Debug\net6.0\CalciAI.deps.json
+D:\code\CalciAI\CalciAI\bin\Debug\net6.0\CalciAI.dll
+D:\code\CalciAI\CalciAI\bin\Debug\net6.0\CalciAI.pdb
+D:\code\CalciAI\CalciAI\obj\Debug\net6.0\CalciAI.csproj.AssemblyReference.cache
+D:\code\CalciAI\CalciAI\obj\Debug\net6.0\CalciAI.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\CalciAI\CalciAI\obj\Debug\net6.0\CalciAI.AssemblyInfoInputs.cache
+D:\code\CalciAI\CalciAI\obj\Debug\net6.0\CalciAI.AssemblyInfo.cs
+D:\code\CalciAI\CalciAI\obj\Debug\net6.0\CalciAI.csproj.CoreCompileInputs.cache
+D:\code\CalciAI\CalciAI\obj\Debug\net6.0\CalciAI.dll
+D:\code\CalciAI\CalciAI\obj\Debug\net6.0\refint\CalciAI.dll
+D:\code\CalciAI\CalciAI\obj\Debug\net6.0\CalciAI.pdb
+D:\code\CalciAI\CalciAI\obj\Debug\net6.0\ref\CalciAI.dll

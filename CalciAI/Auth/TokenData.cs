@@ -21,6 +21,7 @@ namespace CalciAI.Auth
         [JsonPropertyName("ip")]
         public string IpAddress { get; set; }
 
+
         //[JsonPropertyName("isreadonlypassword")]
         //public bool IsReadonlyPassword { get; set; }
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bLpLxg8D4ptzdwQVYqHoEcNz3rmG3NxFMNOhcQXacJWMbUT54ehTm5nN583q0b6iwVaYJqTsAhY9RisnLBRQrQ==",
+  "dgSpecHash": "DuUrBcIXhlp2Nolp+zRr1pLxqnHD3Nn5Nk7bxQN9n9esHmuAoi96dKTL75LseTmQlCu9g2nwWa4FNS7D8kasyA==",
   "success": true,
-  "projectFilePath": "D:\\Mayur\\CalciAI\\CalciAI.ClientService\\CalciAI.ClientService.csproj",
+  "projectFilePath": "D:\\code\\CalciAI\\CalciAI.ClientService\\CalciAI.ClientService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\awssdk.cloudfront\\3.7.302.15\\awssdk.cloudfront.3.7.302.15.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\awssdk.core\\3.7.303.29\\awssdk.core.3.7.303.29.nupkg.sha512",

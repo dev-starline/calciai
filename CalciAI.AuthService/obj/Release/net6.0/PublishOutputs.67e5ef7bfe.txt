@@ -6,8 +6,10 @@ D:\Mayur\CalciAI\CalciAI.AuthService\bin\Release\net6.0\publish\web.config
 D:\Mayur\CalciAI\CalciAI.AuthService\bin\Release\net6.0\publish\appsettings.Development.json
 D:\Mayur\CalciAI\CalciAI.AuthService\bin\Release\net6.0\publish\appsettings.json
 D:\Mayur\CalciAI\CalciAI.AuthService\bin\Release\net6.0\publish\appsettings.Production.json
+D:\Mayur\CalciAI\CalciAI.AuthService\bin\Release\net6.0\publish\configs/sql.madmin.json
 D:\Mayur\CalciAI\CalciAI.AuthService\bin\Release\net6.0\publish\configs/sql.json
 D:\Mayur\CalciAI\CalciAI.AuthService\bin\Release\net6.0\publish\configs/sql.dev.json
+D:\Mayur\CalciAI\CalciAI.AuthService\bin\Release\net6.0\publish\configs/sql.madmin.dev.json
 D:\Mayur\CalciAI\CalciAI.AuthService\bin\Release\net6.0\publish\CalciAI.AuthService.dll
 D:\Mayur\CalciAI\CalciAI.AuthService\bin\Release\net6.0\publish\CalciAI.AuthService.deps.json
 D:\Mayur\CalciAI\CalciAI.AuthService\bin\Release\net6.0\publish\CalciAI.AuthService.runtimeconfig.json

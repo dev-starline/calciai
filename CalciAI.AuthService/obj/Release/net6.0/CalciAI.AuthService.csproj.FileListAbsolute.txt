@@ -120,3 +120,5 @@ D:\Mayur\CalciAI\CalciAI.AuthService\obj\Release\net6.0\refint\CalciAI.AuthServi
 D:\Mayur\CalciAI\CalciAI.AuthService\obj\Release\net6.0\CalciAI.AuthService.pdb
 D:\Mayur\CalciAI\CalciAI.AuthService\obj\Release\net6.0\CalciAI.AuthService.genruntimeconfig.cache
 D:\Mayur\CalciAI\CalciAI.AuthService\obj\Release\net6.0\ref\CalciAI.AuthService.dll
+D:\Mayur\CalciAI\CalciAI.AuthService\bin\Release\net6.0\configs\sql.madmin.json
+D:\Mayur\CalciAI\CalciAI.AuthService\bin\Release\net6.0\configs\sql.madmin.dev.json

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MXSthH5+2jkXOz3UdodVhrqXYBEXDk0pDRzq+KQzmJvdFlr7J/JPrBz7Q3VSd7tXrDKR9RyCTqAeegDJyOAb+g==",
+  "dgSpecHash": "U4nywCazgWy/RHK9bE3hFCcuVtTC1D3mM1IsIc8TuiyS+r4DEUR4zsJpGUpAlEcAEU4OiQ3dQG/sRjL8alx0Aw==",
   "success": true,
-  "projectFilePath": "D:\\Mayur\\CalciAI\\CalciAI.AuthManager\\CalciAI.AuthManager.csproj",
+  "projectFilePath": "D:\\code\\CalciAI\\CalciAI.AuthManager\\CalciAI.AuthManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\csvhelper\\28.0.1\\csvhelper.28.0.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",

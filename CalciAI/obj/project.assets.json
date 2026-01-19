@@ -7913,11 +7913,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mayur\\CalciAI\\CalciAI\\CalciAI.csproj",
+      "projectUniqueName": "D:\\code\\CalciAI\\CalciAI\\CalciAI.csproj",
       "projectName": "CalciAI",
-      "projectPath": "D:\\Mayur\\CalciAI\\CalciAI\\CalciAI.csproj",
+      "projectPath": "D:\\code\\CalciAI\\CalciAI\\CalciAI.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "D:\\Mayur\\CalciAI\\CalciAI\\obj\\",
+      "outputPath": "D:\\code\\CalciAI\\CalciAI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",

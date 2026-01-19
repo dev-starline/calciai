@@ -8470,11 +8470,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mayur\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj",
+      "projectUniqueName": "D:\\code\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj",
       "projectName": "CalciAI.Persistance",
-      "projectPath": "D:\\Mayur\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj",
+      "projectPath": "D:\\code\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "D:\\Mayur\\CalciAI\\CalciAI.Persistance\\obj\\",
+      "outputPath": "D:\\code\\CalciAI\\CalciAI.Persistance\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8491,8 +8491,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Mayur\\CalciAI\\CalciAI\\CalciAI.csproj": {
-              "projectPath": "D:\\Mayur\\CalciAI\\CalciAI\\CalciAI.csproj"
+            "D:\\code\\CalciAI\\CalciAI\\CalciAI.csproj": {
+              "projectPath": "D:\\code\\CalciAI\\CalciAI\\CalciAI.csproj"
             }
           }
         }

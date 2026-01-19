@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Mayur\\CalciAI\\CalciAI.AuthService\\CalciAI.AuthService.csproj": {}
+    "D:\\code\\CalciAI\\CalciAI.AuthService\\CalciAI.AuthService.csproj": {}
   },
   "projects": {
-    "D:\\Mayur\\CalciAI\\CalciAI.AuthManager\\CalciAI.AuthManager.csproj": {
+    "D:\\code\\CalciAI\\CalciAI.AuthManager\\CalciAI.AuthManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mayur\\CalciAI\\CalciAI.AuthManager\\CalciAI.AuthManager.csproj",
+        "projectUniqueName": "D:\\code\\CalciAI\\CalciAI.AuthManager\\CalciAI.AuthManager.csproj",
         "projectName": "CalciAI.AuthManager",
-        "projectPath": "D:\\Mayur\\CalciAI\\CalciAI.AuthManager\\CalciAI.AuthManager.csproj",
+        "projectPath": "D:\\code\\CalciAI\\CalciAI.AuthManager\\CalciAI.AuthManager.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Mayur\\CalciAI\\CalciAI.AuthManager\\obj\\",
+        "outputPath": "D:\\code\\CalciAI\\CalciAI.AuthManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Mayur\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj": {
-                "projectPath": "D:\\Mayur\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj"
+              "D:\\code\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj": {
+                "projectPath": "D:\\code\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "D:\\Mayur\\CalciAI\\CalciAI.AuthService\\CalciAI.AuthService.csproj": {
+    "D:\\code\\CalciAI\\CalciAI.AuthService\\CalciAI.AuthService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mayur\\CalciAI\\CalciAI.AuthService\\CalciAI.AuthService.csproj",
+        "projectUniqueName": "D:\\code\\CalciAI\\CalciAI.AuthService\\CalciAI.AuthService.csproj",
         "projectName": "CalciAI.AuthService",
-        "projectPath": "D:\\Mayur\\CalciAI\\CalciAI.AuthService\\CalciAI.AuthService.csproj",
+        "projectPath": "D:\\code\\CalciAI\\CalciAI.AuthService\\CalciAI.AuthService.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Mayur\\CalciAI\\CalciAI.AuthService\\obj\\",
+        "outputPath": "D:\\code\\CalciAI\\CalciAI.AuthService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -87,11 +87,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Mayur\\CalciAI\\CalciAI.AuthManager\\CalciAI.AuthManager.csproj": {
-                "projectPath": "D:\\Mayur\\CalciAI\\CalciAI.AuthManager\\CalciAI.AuthManager.csproj"
+              "D:\\code\\CalciAI\\CalciAI.AuthManager\\CalciAI.AuthManager.csproj": {
+                "projectPath": "D:\\code\\CalciAI\\CalciAI.AuthManager\\CalciAI.AuthManager.csproj"
               },
-              "D:\\Mayur\\CalciAI\\CalciAI.Web\\CalciAI.Web.csproj": {
-                "projectPath": "D:\\Mayur\\CalciAI\\CalciAI.Web\\CalciAI.Web.csproj"
+              "D:\\code\\CalciAI\\CalciAI.Web\\CalciAI.Web.csproj": {
+                "projectPath": "D:\\code\\CalciAI\\CalciAI.Web\\CalciAI.Web.csproj"
               }
             }
           }
@@ -125,14 +125,14 @@
         }
       }
     },
-    "D:\\Mayur\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj": {
+    "D:\\code\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mayur\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj",
+        "projectUniqueName": "D:\\code\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj",
         "projectName": "CalciAI.Persistance",
-        "projectPath": "D:\\Mayur\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj",
+        "projectPath": "D:\\code\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Mayur\\CalciAI\\CalciAI.Persistance\\obj\\",
+        "outputPath": "D:\\code\\CalciAI\\CalciAI.Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -149,8 +149,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Mayur\\CalciAI\\CalciAI\\CalciAI.csproj": {
-                "projectPath": "D:\\Mayur\\CalciAI\\CalciAI\\CalciAI.csproj"
+              "D:\\code\\CalciAI\\CalciAI\\CalciAI.csproj": {
+                "projectPath": "D:\\code\\CalciAI\\CalciAI\\CalciAI.csproj"
               }
             }
           }
@@ -194,14 +194,14 @@
         }
       }
     },
-    "D:\\Mayur\\CalciAI\\CalciAI.Web\\CalciAI.Web.csproj": {
+    "D:\\code\\CalciAI\\CalciAI.Web\\CalciAI.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mayur\\CalciAI\\CalciAI.Web\\CalciAI.Web.csproj",
+        "projectUniqueName": "D:\\code\\CalciAI\\CalciAI.Web\\CalciAI.Web.csproj",
         "projectName": "CalciAI.Web",
-        "projectPath": "D:\\Mayur\\CalciAI\\CalciAI.Web\\CalciAI.Web.csproj",
+        "projectPath": "D:\\code\\CalciAI\\CalciAI.Web\\CalciAI.Web.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Mayur\\CalciAI\\CalciAI.Web\\obj\\",
+        "outputPath": "D:\\code\\CalciAI\\CalciAI.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -218,11 +218,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Mayur\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj": {
-                "projectPath": "D:\\Mayur\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj"
+              "D:\\code\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj": {
+                "projectPath": "D:\\code\\CalciAI\\CalciAI.Persistance\\CalciAI.Persistance.csproj"
               },
-              "D:\\Mayur\\CalciAI\\CalciAI\\CalciAI.csproj": {
-                "projectPath": "D:\\Mayur\\CalciAI\\CalciAI\\CalciAI.csproj"
+              "D:\\code\\CalciAI\\CalciAI\\CalciAI.csproj": {
+                "projectPath": "D:\\code\\CalciAI\\CalciAI\\CalciAI.csproj"
               }
             }
           }
@@ -285,14 +285,14 @@
         }
       }
     },
-    "D:\\Mayur\\CalciAI\\CalciAI\\CalciAI.csproj": {
+    "D:\\code\\CalciAI\\CalciAI\\CalciAI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mayur\\CalciAI\\CalciAI\\CalciAI.csproj",
+        "projectUniqueName": "D:\\code\\CalciAI\\CalciAI\\CalciAI.csproj",
         "projectName": "CalciAI",
-        "projectPath": "D:\\Mayur\\CalciAI\\CalciAI\\CalciAI.csproj",
+        "projectPath": "D:\\code\\CalciAI\\CalciAI\\CalciAI.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Mayur\\CalciAI\\CalciAI\\obj\\",
+        "outputPath": "D:\\code\\CalciAI\\CalciAI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",

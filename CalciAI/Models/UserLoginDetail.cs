@@ -27,5 +27,8 @@ namespace CalciAI.Models
 
         [JsonPropertyName("ServerIP")]
         public string ServerIP { get; set; }
+
+        [JsonPropertyName("enforcePassword")]
+        public bool EnforcePassword { get; set; }
     }
 }

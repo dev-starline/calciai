@@ -9321,11 +9321,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mayur\\CalciAI\\CalciAI.AdminService\\CalciAI.AdminService.csproj",
+      "projectUniqueName": "D:\\code\\CalciAI\\CalciAI.AdminService\\CalciAI.AdminService.csproj",
       "projectName": "CalciAI.AdminService",
-      "projectPath": "D:\\Mayur\\CalciAI\\CalciAI.AdminService\\CalciAI.AdminService.csproj",
+      "projectPath": "D:\\code\\CalciAI\\CalciAI.AdminService\\CalciAI.AdminService.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "D:\\Mayur\\CalciAI\\CalciAI.AdminService\\obj\\",
+      "outputPath": "D:\\code\\CalciAI\\CalciAI.AdminService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9342,14 +9342,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Mayur\\CalciAI\\CalciAI.AdminManager\\CalciAI.AdminManager.csproj": {
-              "projectPath": "D:\\Mayur\\CalciAI\\CalciAI.AdminManager\\CalciAI.AdminManager.csproj"
+            "D:\\code\\CalciAI\\CalciAI.AdminManager\\CalciAI.AdminManager.csproj": {
+              "projectPath": "D:\\code\\CalciAI\\CalciAI.AdminManager\\CalciAI.AdminManager.csproj"
             },
-            "D:\\Mayur\\CalciAI\\CalciAI.CommonManager\\CalciAI.CommonManager.csproj": {
-              "projectPath": "D:\\Mayur\\CalciAI\\CalciAI.CommonManager\\CalciAI.CommonManager.csproj"
+            "D:\\code\\CalciAI\\CalciAI.CommonManager\\CalciAI.CommonManager.csproj": {
+              "projectPath": "D:\\code\\CalciAI\\CalciAI.CommonManager\\CalciAI.CommonManager.csproj"
             },
-            "D:\\Mayur\\CalciAI\\CalciAI.Web\\CalciAI.Web.csproj": {
-              "projectPath": "D:\\Mayur\\CalciAI\\CalciAI.Web\\CalciAI.Web.csproj"
+            "D:\\code\\CalciAI\\CalciAI.Web\\CalciAI.Web.csproj": {
+              "projectPath": "D:\\code\\CalciAI\\CalciAI.Web\\CalciAI.Web.csproj"
             }
           }
         }

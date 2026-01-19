@@ -81,7 +81,9 @@ namespace CalciAI.AuthService.ControllerApis
                 Username = user.UserName,
                 Role = user.UserRole.ToString(),
                 Expiration = DateTime.UtcNow.AddDays(10),
-                IpAddress = requestIP
+                IpAddress = requestIP,
+               
+                
             };
 
             var encodedData = AuthUtil.EncodeToken(tokenData, secret);
@@ -99,10 +101,23 @@ namespace CalciAI.AuthService.ControllerApis
             {
                 Token = encodedData,
                 Name = user.Name,
-                Expiration = tokenData.Expiration
+                Expiration = tokenData.Expiration,
+                EnforcePassword = user.EnforcePassword
             };
 
             return Ok(ProcessResult<TokenResponse>.Success(tdata, 0, 1, user.Msg));
+        }
+
+
+        [HttpGet]
+        [Route("/TestMacc")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+      
+        public IActionResult CheckAPI()
+        {
+
+            return Ok("Testsuccessfully!!");
         }
 
         [HttpGet]

@@ -1,0 +1,17 @@
+D:\Mayur\CalciAI\CalciAI.CommonManager\bin\Release\net6.0\CalciAI.CommonManager.deps.json
+D:\Mayur\CalciAI\CalciAI.CommonManager\bin\Release\net6.0\CalciAI.CommonManager.dll
+D:\Mayur\CalciAI\CalciAI.CommonManager\bin\Release\net6.0\CalciAI.CommonManager.pdb
+D:\Mayur\CalciAI\CalciAI.CommonManager\bin\Release\net6.0\CalciAI.dll
+D:\Mayur\CalciAI\CalciAI.CommonManager\bin\Release\net6.0\CalciAI.Persistance.dll
+D:\Mayur\CalciAI\CalciAI.CommonManager\bin\Release\net6.0\CalciAI.Persistance.pdb
+D:\Mayur\CalciAI\CalciAI.CommonManager\bin\Release\net6.0\CalciAI.pdb
+D:\Mayur\CalciAI\CalciAI.CommonManager\obj\Release\net6.0\CalciAI.CommonManager.csproj.AssemblyReference.cache
+D:\Mayur\CalciAI\CalciAI.CommonManager\obj\Release\net6.0\CalciAI.CommonManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mayur\CalciAI\CalciAI.CommonManager\obj\Release\net6.0\CalciAI.CommonManager.AssemblyInfoInputs.cache
+D:\Mayur\CalciAI\CalciAI.CommonManager\obj\Release\net6.0\CalciAI.CommonManager.AssemblyInfo.cs
+D:\Mayur\CalciAI\CalciAI.CommonManager\obj\Release\net6.0\CalciAI.CommonManager.csproj.CoreCompileInputs.cache
+D:\Mayur\CalciAI\CalciAI.CommonManager\obj\Release\net6.0\CalciAI.CommonManager.csproj.CopyComplete
+D:\Mayur\CalciAI\CalciAI.CommonManager\obj\Release\net6.0\CalciAI.CommonManager.dll
+D:\Mayur\CalciAI\CalciAI.CommonManager\obj\Release\net6.0\refint\CalciAI.CommonManager.dll
+D:\Mayur\CalciAI\CalciAI.CommonManager\obj\Release\net6.0\CalciAI.CommonManager.pdb
+D:\Mayur\CalciAI\CalciAI.CommonManager\obj\Release\net6.0\ref\CalciAI.CommonManager.dll

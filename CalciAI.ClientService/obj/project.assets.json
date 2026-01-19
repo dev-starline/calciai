@@ -9340,11 +9340,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mayur\\CalciAI\\CalciAI.ClientService\\CalciAI.ClientService.csproj",
+      "projectUniqueName": "D:\\code\\CalciAI\\CalciAI.ClientService\\CalciAI.ClientService.csproj",
       "projectName": "CalciAI.ClientService",
-      "projectPath": "D:\\Mayur\\CalciAI\\CalciAI.ClientService\\CalciAI.ClientService.csproj",
+      "projectPath": "D:\\code\\CalciAI\\CalciAI.ClientService\\CalciAI.ClientService.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "D:\\Mayur\\CalciAI\\CalciAI.ClientService\\obj\\",
+      "outputPath": "D:\\code\\CalciAI\\CalciAI.ClientService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9361,17 +9361,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Mayur\\CalciAI\\CalciAI.AdminManager\\CalciAI.AdminManager.csproj": {
-              "projectPath": "D:\\Mayur\\CalciAI\\CalciAI.AdminManager\\CalciAI.AdminManager.csproj"
+            "D:\\code\\CalciAI\\CalciAI.AdminManager\\CalciAI.AdminManager.csproj": {
+              "projectPath": "D:\\code\\CalciAI\\CalciAI.AdminManager\\CalciAI.AdminManager.csproj"
             },
-            "D:\\Mayur\\CalciAI\\CalciAI.ClientManager\\CalciAI.ClientManager.csproj": {
-              "projectPath": "D:\\Mayur\\CalciAI\\CalciAI.ClientManager\\CalciAI.ClientManager.csproj"
+            "D:\\code\\CalciAI\\CalciAI.ClientManager\\CalciAI.ClientManager.csproj": {
+              "projectPath": "D:\\code\\CalciAI\\CalciAI.ClientManager\\CalciAI.ClientManager.csproj"
             },
-            "D:\\Mayur\\CalciAI\\CalciAI.CommonManager\\CalciAI.CommonManager.csproj": {
-              "projectPath": "D:\\Mayur\\CalciAI\\CalciAI.CommonManager\\CalciAI.CommonManager.csproj"
+            "D:\\code\\CalciAI\\CalciAI.CommonManager\\CalciAI.CommonManager.csproj": {
+              "projectPath": "D:\\code\\CalciAI\\CalciAI.CommonManager\\CalciAI.CommonManager.csproj"
             },
-            "D:\\Mayur\\CalciAI\\CalciAI.Web\\CalciAI.Web.csproj": {
-              "projectPath": "D:\\Mayur\\CalciAI\\CalciAI.Web\\CalciAI.Web.csproj"
+            "D:\\code\\CalciAI\\CalciAI.Web\\CalciAI.Web.csproj": {
+              "projectPath": "D:\\code\\CalciAI\\CalciAI.Web\\CalciAI.Web.csproj"
             }
           }
         }

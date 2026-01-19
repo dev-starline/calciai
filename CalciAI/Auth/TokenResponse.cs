@@ -14,5 +14,9 @@ namespace CalciAI.Auth
 
         [JsonPropertyName("expiration")]
         public DateTime? Expiration { get; set; }
+
+
+        [JsonPropertyName("enforcePassword")]
+        public bool EnforcePassword { get; set; }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HUQgHebn5Bk+qpBsuoHiPBE7Z+zWJ2mAqKzSEDfmhMuprc8gpAheADvksHftyt0AjHr8YqPI5d9FYosIgK4hWw==",
+  "dgSpecHash": "0v69c975rTuBnhMPo8amGXA4R1RPiMEznVRl54vthNXKi7BEvptUfSTJsUaNLus9qhiOdLxHn5qDOt4M+Wytcg==",
   "success": true,
-  "projectFilePath": "D:\\Mayur\\CalciAI\\CalciAI.ClientManager\\CalciAI.ClientManager.csproj",
+  "projectFilePath": "D:\\code\\CalciAI\\CalciAI.ClientManager\\CalciAI.ClientManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\csvhelper\\28.0.1\\csvhelper.28.0.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",

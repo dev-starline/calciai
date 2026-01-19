@@ -9161,11 +9161,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mayur\\CalciAI\\CalciAI.AuthService\\CalciAI.AuthService.csproj",
+      "projectUniqueName": "D:\\code\\CalciAI\\CalciAI.AuthService\\CalciAI.AuthService.csproj",
       "projectName": "CalciAI.AuthService",
-      "projectPath": "D:\\Mayur\\CalciAI\\CalciAI.AuthService\\CalciAI.AuthService.csproj",
+      "projectPath": "D:\\code\\CalciAI\\CalciAI.AuthService\\CalciAI.AuthService.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "D:\\Mayur\\CalciAI\\CalciAI.AuthService\\obj\\",
+      "outputPath": "D:\\code\\CalciAI\\CalciAI.AuthService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9182,11 +9182,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Mayur\\CalciAI\\CalciAI.AuthManager\\CalciAI.AuthManager.csproj": {
-              "projectPath": "D:\\Mayur\\CalciAI\\CalciAI.AuthManager\\CalciAI.AuthManager.csproj"
+            "D:\\code\\CalciAI\\CalciAI.AuthManager\\CalciAI.AuthManager.csproj": {
+              "projectPath": "D:\\code\\CalciAI\\CalciAI.AuthManager\\CalciAI.AuthManager.csproj"
             },
-            "D:\\Mayur\\CalciAI\\CalciAI.Web\\CalciAI.Web.csproj": {
-              "projectPath": "D:\\Mayur\\CalciAI\\CalciAI.Web\\CalciAI.Web.csproj"
+            "D:\\code\\CalciAI\\CalciAI.Web\\CalciAI.Web.csproj": {
+              "projectPath": "D:\\code\\CalciAI\\CalciAI.Web\\CalciAI.Web.csproj"
             }
           }
         }
