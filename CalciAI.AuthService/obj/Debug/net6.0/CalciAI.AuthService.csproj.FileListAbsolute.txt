@@ -122,9 +122,6 @@ D:\Mayur\CalciAI\CalciAI.AuthService\obj\Debug\net6.0\refint\CalciAI.AuthService
 D:\Mayur\CalciAI\CalciAI.AuthService\obj\Debug\net6.0\CalciAI.AuthService.pdb
 D:\Mayur\CalciAI\CalciAI.AuthService\obj\Debug\net6.0\CalciAI.AuthService.genruntimeconfig.cache
 D:\Mayur\CalciAI\CalciAI.AuthService\obj\Debug\net6.0\ref\CalciAI.AuthService.dll
-D:\code\CalciAI\CalciAI.AuthService\bin\Debug\net6.0\CalciAI.Web.deps.json
-D:\code\CalciAI\CalciAI.AuthService\bin\Debug\net6.0\CalciAI.Web.runtimeconfig.json
-D:\code\CalciAI\CalciAI.AuthService\bin\Debug\net6.0\CalciAI.Web.exe
 D:\code\CalciAI\CalciAI.AuthService\bin\Debug\net6.0\web.config
 D:\code\CalciAI\CalciAI.AuthService\bin\Debug\net6.0\appsettings.Development.json
 D:\code\CalciAI\CalciAI.AuthService\bin\Debug\net6.0\appsettings.json
@@ -133,6 +130,9 @@ D:\code\CalciAI\CalciAI.AuthService\bin\Debug\net6.0\configs\sql.madmin.json
 D:\code\CalciAI\CalciAI.AuthService\bin\Debug\net6.0\configs\sql.json
 D:\code\CalciAI\CalciAI.AuthService\bin\Debug\net6.0\configs\sql.dev.json
 D:\code\CalciAI\CalciAI.AuthService\bin\Debug\net6.0\configs\sql.madmin.dev.json
+D:\code\CalciAI\CalciAI.AuthService\bin\Debug\net6.0\CalciAI.Web.deps.json
+D:\code\CalciAI\CalciAI.AuthService\bin\Debug\net6.0\CalciAI.Web.runtimeconfig.json
+D:\code\CalciAI\CalciAI.AuthService\bin\Debug\net6.0\CalciAI.Web.exe
 D:\code\CalciAI\CalciAI.AuthService\bin\Debug\net6.0\CalciAI.AuthService.exe
 D:\code\CalciAI\CalciAI.AuthService\bin\Debug\net6.0\CalciAI.AuthService.deps.json
 D:\code\CalciAI\CalciAI.AuthService\bin\Debug\net6.0\CalciAI.AuthService.runtimeconfig.json
