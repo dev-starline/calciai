@@ -31,7 +31,45 @@ namespace CalciAI.AdminService.ControllerApis
 
         }
 
-       
+
+        [HttpGet] // Provide all the details of feedback
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesDefaultResponseType]
+        public async Task<IActionResult> GetAllCLByDetails()
+        {
+            var currUser = GetCurrentUser();
+
+            var userData = await _userMasterService.GetAllClientDetailsAsync(currUser.Username);
+
+            if (userData.IsSuccess)
+            {
+                return Ok(userData);
+            }
+
+            return BadRequest(userData);
+        }
+
+
+        [HttpGet("clientdetails/{clientID}")]// Provide data for main listing in admin office user
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesDefaultResponseType]
+        public async Task<IActionResult> GetClientDetailsByID(int clientID)
+        {
+            var currUser = GetCurrentUser();
+
+
+            var UserData = await _userMasterService.GetByClientIdAsync(currUser.Username, clientID);
+
+            if (UserData.IsSuccess)
+            {
+                return Ok(UserData);
+            }
+
+            return BadRequest(UserData);
+        }
+
         [HttpPost("client")] // Add admin office user
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]

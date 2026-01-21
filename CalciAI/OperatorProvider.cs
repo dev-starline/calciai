@@ -183,27 +183,43 @@ namespace CalciAI
 
         public static string[] GetUrlsForCors()
         {
+
             var domains = new List<string>
             {
-                $"https://moctl.com", 
-                $"https://client.moctl.com",
-                $"https://designgopanels.net",
-                $"https://client.designgopanels.net",
-                $"https://pay.designgopanels.net",
-                $"https://madmin.tradeprint.in",
-                $"https://madmin.metaodds.net",
-                $"https://admin.metaodds.xyz"
+                $"https://tradeprint.in",
+                $"http://localhost:3001"
             };
 
             foreach (var item in _hostMap.Keys)
             {
-                domains.Add($"https://admin.{item}");
-                domains.Add($"https://dealer.{item}");
-                domains.Add($"https://client.{item}");
-                domains.Add($"https://wclient.{item}");
-                domains.Add($"https://skt.{item}");
-                domains.Add($"https://sglr.{item}");
+                domains.Add($"http://calci.{item}");
             }
+
+            //var domains = new List<string>
+            //{
+
+            //     $"http://calci.tradeprint.in",
+            //      $"https://moctl.com",
+            //       $"https://moctl.com",
+            //    $"https://moctl.com", 
+            //    $"https://client.moctl.com",
+            //    $"https://designgopanels.net",
+            //    $"https://client.designgopanels.net",
+            //    $"https://pay.designgopanels.net",
+            //    $"https://tradeprint.in",
+            //    $"https://madmin.metaodds.net",
+            //    $"https://admin.metaodds.xyz"
+            //};
+
+            //foreach (var item in _hostMap.Keys)
+            //{
+            //    domains.Add($"https://admin.{item}");
+            //    domains.Add($"https://dealer.{item}");
+            //    domains.Add($"https://client.{item}");
+            //    domains.Add($"https://wclient.{item}");
+            //    domains.Add($"https://skt.{item}");
+            //    domains.Add($"https://sglr.{item}");
+            //}
 
             return domains.ToArray();
         }

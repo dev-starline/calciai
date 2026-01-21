@@ -64,6 +64,26 @@ namespace CalciAI.AdminService.ControllerApis
 
             return BadRequest(response);
         }
+
+        [HttpGet] // Provide all the details of feedback
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesDefaultResponseType]
+        public async Task<IActionResult> GetAllSubscribeReqByClientID()
+        {
+            var currUser = GetCurrentUser();
+
+            var userData = await _userMasterService.GetAllSubscribeReqByClientIdAsync(currUser.Username);
+
+            if (userData.IsSuccess)
+            {
+                return Ok(userData);
+            }
+
+            return BadRequest(userData);
+        }
+
+
         //[HttpPost("client")] // Add admin office user
         //[ProducesResponseType(StatusCodes.Status200OK)]
         //[ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -120,7 +140,7 @@ namespace CalciAI.AdminService.ControllerApis
         //        var ClientData = await _userMasterService.GetByClientIdAsync(currUser.Username, Convert.ToInt32(clientMasterModel.ClientMasterID));
 
         //        clientMasterModel.ClientMasterID = ClientData.Data.ClientMasterID;
-             
+
 
         //        return Ok(ProcessResult<AddClientMasterModel>.Success(ClientData.Data, response.ReturnID, response.Action, response.SuccessMessage));
         //    }

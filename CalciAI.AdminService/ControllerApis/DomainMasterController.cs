@@ -12,7 +12,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
-
+using Microsoft.AspNetCore.SignalR;
+using CalciAI.AdminService.ChatHubs;
+using Microsoft.AspNet.SignalR.Messaging;
 
 namespace CalciAI.AdminService.ControllerApis
 {
@@ -24,11 +26,32 @@ namespace CalciAI.AdminService.ControllerApis
         private readonly ISqlBus _sqlBus;
         private readonly IUserMasterService _userMasterService;
 
-        public DomainMasterController(ILogger<DomainMasterController> logger, IUserMasterService userMasterService, ISqlBus sqlBus) : base(logger)
+        private readonly IHubContext<ChatHub> _hubContext;
+
+        public DomainMasterController(ILogger<DomainMasterController> logger, IUserMasterService userMasterService, ISqlBus sqlBus, IHubContext<ChatHub> hubContext) : base(logger)
         {
             _sqlBus = sqlBus;
             _userMasterService = userMasterService;
+            _hubContext = hubContext;
+        }
 
+        [HttpGet] // Provide data for main listing in admin office user
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesDefaultResponseType]
+        public async Task<IActionResult> GetAllDetailsForAdmin()
+        {
+            var currUser = GetCurrentUser();
+
+
+            var UserData = await _userMasterService.GetAllDomainDetailsAsync(currUser.Username);
+
+            if (UserData.IsSuccess)
+            {
+                return Ok(UserData);
+            }
+
+            return BadRequest(UserData);
         }
 
         [HttpPost("adddomain")] // Add admin office user
@@ -57,6 +80,9 @@ namespace CalciAI.AdminService.ControllerApis
             if (response.IsSuccess)
             {
                 var userData = await _userMasterService.GetByDomainIdAsync(currUser.Username, Convert.ToInt32(response.ReturnID));
+                await _hubContext.Clients.All.SendAsync("ReceiveMessage", userData.Data.URL, userData.Data.DomainID);
+
+
                 return Ok(ProcessResult<DomainMasterModel>.Success(userData.Data, response.ReturnID, response.Action, response.SuccessMessage));
             }
 

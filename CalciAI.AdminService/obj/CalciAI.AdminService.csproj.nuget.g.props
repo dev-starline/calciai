@@ -17,6 +17,7 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\Dell\.nuget\packages\newtonsoft.json\10.0.3</PkgNewtonsoft_Json>
+    <PkgjQuery Condition=" '$(PkgjQuery)' == '' ">C:\Users\Dell\.nuget\packages\jquery\1.6.4</PkgjQuery>
     <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\Dell\.nuget\packages\awssdk.core\3.7.303.29</PkgAWSSDK_Core>
     <PkgAWSSDK_S3 Condition=" '$(PkgAWSSDK_S3)' == '' ">C:\Users\Dell\.nuget\packages\awssdk.s3\3.7.307.31</PkgAWSSDK_S3>
     <PkgAWSSDK_CloudFront Condition=" '$(PkgAWSSDK_CloudFront)' == '' ">C:\Users\Dell\.nuget\packages\awssdk.cloudfront\3.7.302.15</PkgAWSSDK_CloudFront>

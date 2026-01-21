@@ -94,5 +94,23 @@ namespace CalciAI.Clientservice.ControllerApis
             return BadRequest(response);
         }
 
+        [HttpGet] // Provide all the details of feedback
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesDefaultResponseType]
+        public async Task<IActionResult> GetAllSubscribeByClientID()
+        {
+            var currUser = GetCurrentUser();
+
+            var userData = await _userMasterService.GetAllSubscribeByClientIdAsync(currUser.Username);
+
+            if (userData.IsSuccess)
+            {
+                return Ok(userData);
+            }
+
+            return BadRequest(userData);
+        }
+
     }
 }

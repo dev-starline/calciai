@@ -18,8 +18,18 @@ namespace CalciAI.CommonManager.Services
     {
 
 
+        
+
+
+        Task<ProcessResult<ModelList<AddClientMasterModel>>> GetAllClientDetailsAsync(string userName);
+
         Task<ProcessResult<AddClientMasterModel>> GetByClientIdAsync(string operatorID, int ClientMasterID);
+
+
+        Task<ProcessResult<ModelList<DomainMasterModel>>> GetAllDomainDetailsAsync(string userName);
         Task<ProcessResult<DomainMasterModel>> GetByDomainIdAsync(string operatorID, int domainId);
+
+        Task<ProcessResult<ModelList<SubscribeRequestModel>>> GetAllSubscribeReqByClientIdAsync(string userName);
 
         //Task<ProcessResult<CityMasterModel>> GetByCityIdAsync(string operatorID, int ClientMasterID);
         //Task<ProcessResult<ProductMasterModel>> GetByProductIdAsync(string operatorID, int domainId);
@@ -29,6 +39,23 @@ namespace CalciAI.CommonManager.Services
         public UserMasterService()
         {
 
+        }
+
+        public async Task<ProcessResult<ModelList<AddClientMasterModel>>> GetAllClientDetailsAsync(string userName)
+        {
+            try
+            {
+                SqlParameter[] parameters = { new SqlParameter("@userName", userName) };
+
+                var data = await SqlService.ExecuteReaderListAsync<ClientMaster>("UserMaster_GetAllClientDetails", parameters);
+                var mappedData = data.Select(x => ClientMasterMapper.MapToModel(x));
+
+                return ProcessResult<ModelList<AddClientMasterModel>>.Success(new ModelList<AddClientMasterModel>(mappedData));
+            }
+            catch (Exception ex)
+            {
+                return ProcessResult<ModelList<AddClientMasterModel>>.Fail("Exception", ex.Message);
+            }
         }
         public async Task<ProcessResult<AddClientMasterModel>> GetByClientIdAsync(string operatorID, int ClientMasterID)
         {
@@ -52,6 +79,23 @@ namespace CalciAI.CommonManager.Services
             }
         }
 
+        public async Task<ProcessResult<ModelList<DomainMasterModel>>> GetAllDomainDetailsAsync(string userName)
+        {
+            try
+            {
+                SqlParameter[] parameters = { new SqlParameter("@userName", userName) };
+
+                var data = await SqlService.ExecuteReaderListAsync<DomainMaster>("UserMaster_GetAllDomainDetails", parameters);
+                var mappedData = data.Select(x => ClientMasterMapper.MapDomainToModel(x));
+
+                return ProcessResult<ModelList<DomainMasterModel>>.Success(new ModelList<DomainMasterModel>(mappedData));
+            }
+            catch (Exception ex)
+            {
+                return ProcessResult<ModelList<DomainMasterModel>>.Fail("Exception", ex.Message);
+            }
+        }
+
         public async Task<ProcessResult<DomainMasterModel>> GetByDomainIdAsync(string operatorID, int domainId)
         {
             try
@@ -71,6 +115,28 @@ namespace CalciAI.CommonManager.Services
             catch (Exception ex)
             {
                 return ProcessResult<DomainMasterModel>.Fail("Exception", ex.Message);
+            }
+        }
+
+        public async Task<ProcessResult<ModelList<SubscribeRequestModel>>> GetAllSubscribeReqByClientIdAsync(string userName)
+        // public async Task<ProcessResult<SubscribeRequestModel>> GetAllSubscribeReqByClientIdAsync(string userName)
+        {
+            try
+            {
+                SqlParameter[] parameters =
+                {
+                    new SqlParameter("@userName", userName),
+
+                };
+
+                var data = await SqlService.ExecuteReaderListAsync<SubscribeReqMaster>("Subscribe_Request_GetAllReqDetails", parameters);
+                var mappedClient = data.Select(x => ClientMasterMapper.MapSubReqToModel(x));
+                return ProcessResult<ModelList<SubscribeRequestModel>>.Success(new ModelList<SubscribeRequestModel>(mappedClient));
+            }
+            catch (Exception ex)
+            {
+                return ProcessResult<ModelList<SubscribeRequestModel>>.Fail("Exception", ex.Message);
+
             }
         }
         //public async Task<ProcessResult<CityMasterModel>> GetByCityIdAsync(string operatorID, int ClientMasterID)

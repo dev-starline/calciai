@@ -1,8 +1,5 @@
-﻿using CalciAI.Caching;
-using CalciAI.CommonManager.CommandProcessor;
-using CalciAI.CommonManager.CommandProcessor.UserMaster;
+﻿using CalciAI.CommonManager.CommandProcessor;
 using CalciAI.CommonManager.Services;
-using CalciAI.Models;
 using CalciAI.Models.Admin;
 using CalciAI.Persistance;
 using CalciAI.Web;
@@ -10,11 +7,10 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System;
 using System.Threading.Tasks;
 
 
-namespace CalciAI.AdminService.ControllerApis
+namespace CalciAI.Clientservice.ControllerApis
 {
     [Route("manage/[controller]")]
     [ApiController]
@@ -22,13 +18,31 @@ namespace CalciAI.AdminService.ControllerApis
     public class UserMasterController : ApiControllerBase
     {
         private readonly ISqlBus _sqlBus;
-        private readonly IUserMasterService _userMasterService;
+        private readonly IUserCLMasterService _userMasterService;
 
-        public UserMasterController(ILogger<UserMasterController> logger, IUserMasterService userMasterService, ISqlBus sqlBus) : base(logger)
+        public UserMasterController(ILogger<UserMasterController> logger, IUserCLMasterService userMasterService, ISqlBus sqlBus) : base(logger)
         {
             _sqlBus = sqlBus;
             _userMasterService = userMasterService;
 
+        }
+
+        [HttpGet("dashboard")] // Provide all the details of feedback
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesDefaultResponseType]
+        public async Task<IActionResult> GetAllCityByClientID()
+        {
+            var currUser = GetCurrentUser();
+
+            var userData = await _userMasterService.GetClientDashboardAsync(currUser.Username);
+
+            if (userData.IsSuccess)
+            {
+                return Ok(userData);
+            }
+
+            return BadRequest(userData);
         }
 
         [HttpPut("changepassword")] // Change any user password in admin module.

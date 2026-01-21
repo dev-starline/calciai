@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CalciAI.Persistance
-build_property.ProjectDir = D:\Mayur\CalciAI\CalciAI.Persistance\
+build_property.ProjectDir = D:\code\CalciAI\CalciAI.Persistance\

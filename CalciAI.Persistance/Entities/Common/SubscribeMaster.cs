@@ -36,5 +36,8 @@ namespace CalciAI.Persistance.Entities.Common
 
         [JsonPropertyName("gst")]
         public bool GST { get; set; }
+
+        [JsonPropertyName("clientID")]
+        public int ClientID { get; set; }
     }
 }

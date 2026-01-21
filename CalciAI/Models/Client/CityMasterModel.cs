@@ -15,6 +15,9 @@ namespace CalciAI.Models.client
 
         [JsonPropertyName("cityName")]
         public string CityName { get; set; }
-       
+
+        [JsonPropertyName("clientID")]
+        public int ClientID { get; set; }
+
     }
 }

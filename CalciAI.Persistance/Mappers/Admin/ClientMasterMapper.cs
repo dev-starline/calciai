@@ -63,7 +63,27 @@ namespace CalciAI.Persistance.Mappers.Admin
             var dest = new CityMasterModel
             {
                 CityID = doc.CityID,
-                CityName = doc.CityName
+                CityName = doc.CityName,
+                ClientID = doc.ClientID
+            };
+
+            return dest;
+        }
+
+        public static DashboardModel MapDashboardToModel(DashboardMaster doc)
+        {
+            if (doc == null)
+            {
+                return null;
+            }
+
+            var dest = new DashboardModel
+            {
+                CityCnt = doc.CityCnt,
+                ProductCnt = doc.ProductCnt,
+                SubscribeCnt = doc.SubscribeCnt,
+                OfficeUserCnt = doc.OfficeUserCnt,
+                ClientID = doc.ClientID
             };
 
             return dest;
@@ -79,7 +99,8 @@ namespace CalciAI.Persistance.Mappers.Admin
             var dest = new ProductMasterModel
             {
                 ProductID = doc.ProductID,
-                ProductName = doc.ProductName
+                ProductName = doc.ProductName,
+                 ClientID = doc.ClientID
             };
 
             return dest;
@@ -102,7 +123,8 @@ namespace CalciAI.Persistance.Mappers.Admin
                 URLID = doc.URLID,
                 URLName = doc.URLName,
                 SelectedProduct = doc.SelectedProduct,
-                GST = doc.GST
+                GST = doc.GST,
+                ClientID = doc.ClientID
             };
 
             return dest;
@@ -118,7 +140,8 @@ namespace CalciAI.Persistance.Mappers.Admin
             var dest = new SubscribeRequestModel
             {
                 SRequestID = doc.SRequestID,
-                URLName = doc.URLName
+                URLName = doc.URLName,
+                ClientID = doc.ClientID
             };
 
             return dest;

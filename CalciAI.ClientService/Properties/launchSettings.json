@@ -1,6 +1,6 @@
 ﻿{
   "profiles": {
-    "AdminService": {
+    "ClientService": {
       "commandName": "Project",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

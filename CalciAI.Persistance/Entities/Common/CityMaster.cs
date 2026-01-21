@@ -15,5 +15,8 @@ namespace CalciAI.Persistance.Entities.Common
 
         [JsonPropertyName("cityName")]
         public string CityName { get; set; }
+
+        [JsonPropertyName("clientID")]
+        public int ClientID { get; set; }
     }
 }

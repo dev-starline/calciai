@@ -17,11 +17,25 @@ namespace CalciAI.CommonManager.Services
     public interface IUserCLMasterService : IService
     {
 
+        Task<ProcessResult<ModelList<DashboardModel>>> GetClientDashboardAsync(string userName);
 
+        Task<ProcessResult<ModelList<CityMasterModel>>> GetAllCityByClientIDAsync(string userName);
+        //Task<ProcessResult<CityMasterModel>> GetAllCityByClientIDAsync(string userName);
         Task<ProcessResult<CityMasterModel>> GetByCityIdAsync(string operatorID, int cityId);
+
+
+        Task<ProcessResult<ModelList<ProductMasterModel>>> GetAllProductIdByClientIDAsync(string userName);
+        //Task<ProcessResult<ProductMasterModel>> GetAllProductIdByClientIDAsync(string userName);
         Task<ProcessResult<ProductMasterModel>> GetByProductIdAsync(string operatorID, int prouctId);
 
+        Task<ProcessResult<ModelList<SubscribeMasterModel>>> GetAllSubscribeByClientIdAsync(string userName);
+      //  Task<ProcessResult<SubscribeMasterModel>> GetAllSubscribeByClientIdAsync(string userName);
+
         Task<ProcessResult<SubscribeMasterModel>> GetBySubscribeIdAsync(string operatorID, int subscribeId);
+
+
+        Task<ProcessResult<ModelList<SubscribeRequestModel>>> GetAllSubscribeReqByClientIdAsync(string userName);
+      //  Task<ProcessResult<SubscribeRequestModel>> GetAllSubscribeReqByClientIdAsync(string userName);
 
         Task<ProcessResult<SubscribeRequestModel>> GetBySubscribeReqIdAsync(string operatorID, int subscribeReqId);
     }
@@ -31,7 +45,52 @@ namespace CalciAI.CommonManager.Services
         {
 
         }
-       
+
+        public async Task<ProcessResult<ModelList<DashboardModel>>> GetClientDashboardAsync(string userName)
+        {
+            try
+            {
+                SqlParameter[] parameters =
+                {
+                    new SqlParameter("@userName", userName),
+
+                };
+
+                var data = await SqlService.ExecuteReaderListAsync<DashboardMaster>("ClientDashboard_GetCountByClientID", parameters);
+
+                var mappedData = data.Select(x => ClientMasterMapper.MapDashboardToModel(x));
+                // var mappedClient = ClientMasterMapper.MapCityToModel(data);
+                return ProcessResult<ModelList<DashboardModel>>.Success(new ModelList<DashboardModel>(mappedData));
+
+            }
+            catch (Exception ex)
+            {
+                return ProcessResult<ModelList<DashboardModel>>.Fail("Exception", ex.Message);
+            }
+        }
+
+        public async Task<ProcessResult<ModelList<CityMasterModel>>> GetAllCityByClientIDAsync(string userName)
+        {
+            try
+            {
+                SqlParameter[] parameters =
+                {
+                    new SqlParameter("@userName", userName),
+
+                };
+
+                var data = await SqlService.ExecuteReaderListAsync<CityMaster>("City_GetAllCityByDetailsByClientID", parameters);
+
+                var mappedData = data.Select(x => ClientMasterMapper.MapCityToModel(x));
+                // var mappedClient = ClientMasterMapper.MapCityToModel(data);
+                return ProcessResult<ModelList<CityMasterModel>>.Success(new ModelList<CityMasterModel>(mappedData));
+               
+            }
+            catch (Exception ex)
+            {
+                return ProcessResult<ModelList<CityMasterModel>>.Fail("Exception", ex.Message);
+            }
+        }
         public async Task<ProcessResult<CityMasterModel>> GetByCityIdAsync(string operatorID, int cityId)
         {
             try
@@ -51,6 +110,29 @@ namespace CalciAI.CommonManager.Services
             catch (Exception ex)
             {
                 return ProcessResult<CityMasterModel>.Fail("Exception", ex.Message);
+            }
+        }
+
+       
+
+        public async Task<ProcessResult<ModelList<ProductMasterModel>>> GetAllProductIdByClientIDAsync(string userName)
+        {
+            try
+            {
+                SqlParameter[] parameters =
+                {
+                     new SqlParameter("@userName", userName),
+
+                };
+
+                var data = await SqlService.ExecuteReaderListAsync<ProductMaster>("Product_GetAllProductDetailsByClientID", parameters);
+                var mappedClient = data.Select(x => ClientMasterMapper.MapProductToModel(x));
+                return ProcessResult<ModelList<ProductMasterModel>>.Success(new ModelList<ProductMasterModel>(mappedClient));
+            }
+            catch (Exception ex)
+            {
+                return ProcessResult<ModelList<ProductMasterModel>>.Fail("Exception", ex.Message);
+               
             }
         }
 
@@ -76,6 +158,28 @@ namespace CalciAI.CommonManager.Services
             }
         }
 
+        public async Task<ProcessResult<ModelList<SubscribeMasterModel>>> GetAllSubscribeByClientIdAsync(string userName)
+        //  public async Task<ProcessResult<SubscribeMasterModel>> GetAllSubscribeByClientIdAsync(string userName)
+        {
+            try
+            {
+                SqlParameter[] parameters =
+                {
+                     new SqlParameter("@userName", userName),
+
+                };
+
+                var data = await SqlService.ExecuteReaderListAsync<SubscribeMaster>("Subscribe_GetSubscribeDetailsByClientID", parameters);
+                var mappedClient = data.Select(x => ClientMasterMapper.MapSubscribeToModel(x));
+                return ProcessResult<ModelList<SubscribeMasterModel>>.Success(new ModelList<SubscribeMasterModel>(mappedClient));
+            }
+            catch (Exception ex)
+            {
+                return ProcessResult<ModelList<SubscribeMasterModel>>.Fail("Exception", ex.Message);
+
+            }
+        }
+
         public async Task<ProcessResult<SubscribeMasterModel>> GetBySubscribeIdAsync(string operatorID, int subscribeID)
         {
             try
@@ -97,6 +201,29 @@ namespace CalciAI.CommonManager.Services
                 return ProcessResult<SubscribeMasterModel>.Fail("Exception", ex.Message);
             }
         }
+
+        public async Task<ProcessResult<ModelList<SubscribeRequestModel>>> GetAllSubscribeReqByClientIdAsync(string userName)
+        // public async Task<ProcessResult<SubscribeRequestModel>> GetAllSubscribeReqByClientIdAsync(string userName)
+        {
+            try
+            {
+                SqlParameter[] parameters =
+                {
+                    new SqlParameter("@userName", userName),
+
+                };
+
+                var data = await SqlService.ExecuteReaderListAsync<SubscribeReqMaster>("Subscribe_Request_GetDetailsByClientID", parameters);
+                var mappedClient = data.Select(x => ClientMasterMapper.MapSubReqToModel(x));
+                return ProcessResult<ModelList<SubscribeRequestModel>>.Success(new ModelList<SubscribeRequestModel>(mappedClient));
+            }
+            catch (Exception ex)
+            {
+                return ProcessResult<ModelList<SubscribeRequestModel>>.Fail("Exception", ex.Message);
+
+            }
+        }
+
 
         public async Task<ProcessResult<SubscribeRequestModel>> GetBySubscribeReqIdAsync(string operatorID, int subscribeReqId)
         {
