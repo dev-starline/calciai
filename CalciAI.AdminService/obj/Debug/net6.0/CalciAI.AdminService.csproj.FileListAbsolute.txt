@@ -150,6 +150,8 @@ D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\CsvHelper.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\DnsClient.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\Figgle.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\JWT.dll
+D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\Microsoft.AspNet.SignalR.Core.dll
+D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\Microsoft.AspNet.SignalR.SystemWeb.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
@@ -179,6 +181,9 @@ D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\Microsoft.Extensions.Optio
 D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\Microsoft.Owin.dll
+D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\Microsoft.Owin.Host.SystemWeb.dll
+D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\Microsoft.Owin.Security.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\MongoDB.Bson.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\MongoDB.Driver.dll
@@ -190,6 +195,7 @@ D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\NLog.Extensions.Hosting.dl
 D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\NLog.Extensions.Logging.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\NRediSearch.dll
+D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\Owin.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\Prometheus.NetCore.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\Prometheus.NetStandard.dll
@@ -256,9 +262,3 @@ D:\code\CalciAI\CalciAI.AdminService\obj\Debug\net6.0\refint\CalciAI.AdminServic
 D:\code\CalciAI\CalciAI.AdminService\obj\Debug\net6.0\CalciAI.AdminService.pdb
 D:\code\CalciAI\CalciAI.AdminService\obj\Debug\net6.0\CalciAI.AdminService.genruntimeconfig.cache
 D:\code\CalciAI\CalciAI.AdminService\obj\Debug\net6.0\ref\CalciAI.AdminService.dll
-D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\Microsoft.AspNet.SignalR.Core.dll
-D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\Microsoft.AspNet.SignalR.SystemWeb.dll
-D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\Microsoft.Owin.dll
-D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\Microsoft.Owin.Host.SystemWeb.dll
-D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\Microsoft.Owin.Security.dll
-D:\code\CalciAI\CalciAI.AdminService\bin\Debug\net6.0\Owin.dll

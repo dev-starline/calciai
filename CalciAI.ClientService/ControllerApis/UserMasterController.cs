@@ -1,5 +1,7 @@
 ﻿using CalciAI.CommonManager.CommandProcessor;
+using CalciAI.CommonManager.CommandProcessor.ClientMaster;
 using CalciAI.CommonManager.Services;
+using CalciAI.Models;
 using CalciAI.Models.Admin;
 using CalciAI.Persistance;
 using CalciAI.Web;
@@ -7,6 +9,9 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using System.Net.Http;
+using System.Text;
+using System;
 using System.Threading.Tasks;
 
 
@@ -78,6 +83,41 @@ namespace CalciAI.Clientservice.ControllerApis
 
             return BadRequest(response);
         }
+
+        [HttpPost("client")] // Add admin office user
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesDefaultResponseType]
+        public async Task<IActionResult> AddClient(AddClientMasterModel addClientMasterModel)
+        {
+            var currUser = GetCurrentUser();
+
+            var host = WebUtils.GetHost(HttpContext);
+            var secret = SecretKey.secret;
+            var requestIP = WebUtils.GetRemoteIp(Request.HttpContext);
+            //  addClientMasterModel.UserRole = UserRole.AdminOfficeUser.ToString();
+
+            var command = new AddClientCommand
+            {
+                SecretKey = secret,
+                OperatorUserId = currUser,
+                AddClientMasterModel = addClientMasterModel,
+                IPAddress = requestIP,
+            };
+
+            var response = await _sqlBus.ExecuteSql(command, currUser.Username);
+
+            if (response.IsSuccess)
+            {
+                var userData = await _userMasterService.GetByClientIdAsync(currUser.Username, Convert.ToInt32(response.ReturnID));
+               
+                return Ok(ProcessResult<AddClientMasterModel>.Success(userData.Data, response.ReturnID, response.Action, response.SuccessMessage));
+            }
+
+            return BadRequest(response);
+        }
+
+
         //[HttpPost("client")] // Add admin office user
         //[ProducesResponseType(StatusCodes.Status200OK)]
         //[ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -134,7 +174,7 @@ namespace CalciAI.Clientservice.ControllerApis
         //        var ClientData = await _userMasterService.GetByClientIdAsync(currUser.Username, Convert.ToInt32(clientMasterModel.ClientMasterID));
 
         //        clientMasterModel.ClientMasterID = ClientData.Data.ClientMasterID;
-             
+
 
         //        return Ok(ProcessResult<AddClientMasterModel>.Success(ClientData.Data, response.ReturnID, response.Action, response.SuccessMessage));
         //    }

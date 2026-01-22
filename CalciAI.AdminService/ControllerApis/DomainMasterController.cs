@@ -54,6 +54,25 @@ namespace CalciAI.AdminService.ControllerApis
             return BadRequest(UserData);
         }
 
+        [HttpGet("domaindetails/{domainID}")]// Provide data for main listing in admin office user
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesDefaultResponseType]
+        public async Task<IActionResult> GetDomainDetailsByID(int domainID)
+        {
+            var currUser = GetCurrentUser();
+
+
+            var UserData = await _userMasterService.GetByDomainIdAsync(currUser.Username, domainID);
+
+            if (UserData.IsSuccess)
+            {
+                return Ok(UserData);
+            }
+
+            return BadRequest(UserData);
+        }
+
         [HttpPost("adddomain")] // Add admin office user
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -115,6 +134,7 @@ namespace CalciAI.AdminService.ControllerApis
             if (response.IsSuccess)
             {
                 var userData = await _userMasterService.GetByDomainIdAsync(currUser.Username, Convert.ToInt32(response.ReturnID));
+                await _hubContext.Clients.All.SendAsync("ReceiveMessage", userData.Data.URL, userData.Data.DomainID);
                 return Ok(ProcessResult<DomainMasterModel>.Success(userData.Data, response.ReturnID, response.Action, response.SuccessMessage));
             }
 

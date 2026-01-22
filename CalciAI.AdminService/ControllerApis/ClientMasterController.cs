@@ -10,7 +10,10 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 using System;
+using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
 
 
@@ -96,6 +99,34 @@ namespace CalciAI.AdminService.ControllerApis
             if (response.IsSuccess)
             {
                 var userData = await _userMasterService.GetByClientIdAsync(currUser.Username,Convert.ToInt32(response.ReturnID) );
+                ////S2S call to insert Client record in DB
+                //var client = new HttpClient();
+                //var otherServerUrl = "https://other-server/api/other-endpoint";  // Change this to the actual URL of the target server
+                //var jsonContent = JsonConvert.SerializeObject(addClientMasterModel);  // Serialize the model to JSON
+                //var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
+
+                //try
+                //{
+                //    // Step 2: Send the request to the other server
+                //    var s2sResponse = await client.PostAsync(otherServerUrl, content);
+
+                //    if (s2sResponse.IsSuccessStatusCode)
+                //    {
+                //        // Step 3: Handle success, for example:
+                //        return Ok(ProcessResult<AddClientMasterModel>.Success(userData.Data, response.ReturnID, response.Action, response.SuccessMessage));
+                //    }
+                //    else
+                //    {
+                //        // Step 4: If the request failed, handle the failure accordingly
+                //        return StatusCode((int)s2sResponse.StatusCode, "Failed to insert data into the other server.");
+                //    }
+                //}
+                //catch (Exception ex)
+                //{
+                //    // Step 5: Handle exception
+                //    return StatusCode(500, $"Internal Server Error: {ex.Message}");
+                //}
+                ////end S2S Call
                 return Ok(ProcessResult<AddClientMasterModel>.Success(userData.Data, response.ReturnID, response.Action, response.SuccessMessage));
             }
 

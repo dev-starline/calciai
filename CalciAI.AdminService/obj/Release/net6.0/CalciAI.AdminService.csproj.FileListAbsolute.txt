@@ -256,3 +256,9 @@ D:\code\CalciAI\CalciAI.AdminService\obj\Release\net6.0\refint\CalciAI.AdminServ
 D:\code\CalciAI\CalciAI.AdminService\obj\Release\net6.0\CalciAI.AdminService.pdb
 D:\code\CalciAI\CalciAI.AdminService\obj\Release\net6.0\CalciAI.AdminService.genruntimeconfig.cache
 D:\code\CalciAI\CalciAI.AdminService\obj\Release\net6.0\ref\CalciAI.AdminService.dll
+D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\Microsoft.AspNet.SignalR.Core.dll
+D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\Microsoft.Owin.dll
+D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\Microsoft.Owin.Host.SystemWeb.dll
+D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\Microsoft.Owin.Security.dll
+D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\Owin.dll

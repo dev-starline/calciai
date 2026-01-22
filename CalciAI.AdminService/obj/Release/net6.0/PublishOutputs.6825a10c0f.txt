@@ -21,6 +21,8 @@ D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\publish\CsvHelper.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\publish\DnsClient.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\publish\Figgle.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\publish\JWT.dll
+D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\publish\Microsoft.AspNet.SignalR.Core.dll
+D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\publish\Microsoft.AspNet.SignalR.SystemWeb.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\publish\Microsoft.Extensions.Caching.Memory.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\publish\Microsoft.Extensions.Configuration.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\publish\Microsoft.Extensions.Configuration.Abstractions.dll
@@ -50,6 +52,9 @@ D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\publish\Microsoft.Extens
 D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\publish\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\publish\Microsoft.Extensions.Primitives.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\publish\Microsoft.IO.RecyclableMemoryStream.dll
+D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\publish\Microsoft.Owin.dll
+D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\publish\Microsoft.Owin.Host.SystemWeb.dll
+D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\publish\Microsoft.Owin.Security.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\publish\Microsoft.Win32.SystemEvents.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\publish\MongoDB.Bson.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\publish\MongoDB.Driver.dll
@@ -61,6 +66,7 @@ D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\publish\NLog.Extensions.
 D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\publish\NLog.Extensions.Logging.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\publish\NLog.Web.AspNetCore.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\publish\NRediSearch.dll
+D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\publish\Owin.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\publish\Pipelines.Sockets.Unofficial.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\publish\Prometheus.NetCore.dll
 D:\code\CalciAI\CalciAI.AdminService\bin\Release\net6.0\publish\Prometheus.NetStandard.dll

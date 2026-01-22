@@ -63,6 +63,7 @@ namespace CalciAI.Web
                                     .Append("http://localhost:3003")
                                     .Append("http://localhost:3004")
                                     .Append("http://localhost:3005")
+                                  
                                     ).ToArray();
 
                 builder.WithOrigins(corsUrls)
@@ -185,11 +186,14 @@ namespace CalciAI.Web
 
             app.UseCors(Auth.AuthFields.CORS_POLICY);
 
+            app.UseCors("AllowReactApp");
+
             app.UseRequestResponseLogging();
 
             app.UseRouting();
             var authTypes = new List<string>();
             Configuration.GetSection("AuthTypes").Bind(authTypes);
+          
 
             if (authTypes.Count > 0)
             {

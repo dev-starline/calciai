@@ -6,17 +6,17 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("SignalRCors", policy =>
-    {
-        policy
-            .WithOrigins("http://localhost:55736")
-            .AllowAnyHeader()
-            .AllowAnyMethod()
-            .AllowCredentials();
-    });
-});
+//builder.Services.AddCors(options =>
+//{
+//    options.AddPolicy("SignalRCors", policy =>
+//    {
+//        policy
+//            .WithOrigins("http://localhost:55736")// live ip or domain need to all
+//            .AllowAnyHeader()
+//            .AllowAnyMethod()
+//            .AllowCredentials();
+//    });
+//});
 builder.Services.AddSignalR();
 
 
@@ -29,7 +29,8 @@ builder.Services.AddControllers();
 var app = builder.Build();
 
 
-app.UseCors("SignalRCors"); // Apply CORS policy
+app.UseCors(CalciAI.Auth.AuthFields.CORS_POLICY);
+//app.UseCors("SignalRCors"); // Apply CORS policy
 app.MapHub<ChatHub>("/chatHub");
 
 ILogger logger = builder.Services.BuildServiceProvider().GetRequiredService<ILogger<Program>>();

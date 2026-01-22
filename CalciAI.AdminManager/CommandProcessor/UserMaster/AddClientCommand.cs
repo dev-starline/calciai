@@ -34,10 +34,10 @@ namespace CalciAI.CommonManager.CommandProcessor.UserMaster
         {
 
 
-            if (command.AddClientMasterModel.ClientID == null || command.AddClientMasterModel.ClientID == 0)
-            {
-                return new ValueTask<ProcessResult>(ProcessResult.Fail("ClientMaster", "Client id is required"));
-            }
+            //if (command.AddClientMasterModel.ClientID == null || command.AddClientMasterModel.ClientID == 0)
+            //{
+            //    return new ValueTask<ProcessResult>(ProcessResult.Fail("ClientMaster", "Client id is required"));
+            //}
 
             if (command.AddClientMasterModel.ClientName == null || string.IsNullOrEmpty(command.AddClientMasterModel.ClientName.Trim()))
             {

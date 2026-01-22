@@ -17,6 +17,7 @@ namespace CalciAI.CommonManager.Services
     public interface IUserCLMasterService : IService
     {
 
+        Task<ProcessResult<AddClientMasterModel>> GetByClientIdAsync(string operatorID, int ClientMasterID);
         Task<ProcessResult<ModelList<DashboardModel>>> GetClientDashboardAsync(string userName);
 
         Task<ProcessResult<ModelList<CityMasterModel>>> GetAllCityByClientIDAsync(string userName);
@@ -44,6 +45,28 @@ namespace CalciAI.CommonManager.Services
         public UserCLMasterService()
         {
 
+        }
+
+        public async Task<ProcessResult<AddClientMasterModel>> GetByClientIdAsync(string operatorID, int ClientMasterID)
+        {
+            try
+            {
+                SqlParameter[] parameters =
+                {
+                    new SqlParameter("@ClientMasterID", ClientMasterID),
+
+                };
+
+                var data = await SqlService.ExecuteReaderAsync<ClientMaster>("ClientMaster_GetDetailsByID", parameters);
+
+                var mappedClient = ClientMasterMapper.MapToModel(data);
+
+                return ProcessResult<AddClientMasterModel>.Success(mappedClient);
+            }
+            catch (Exception ex)
+            {
+                return ProcessResult<AddClientMasterModel>.Fail("Exception", ex.Message);
+            }
         }
 
         public async Task<ProcessResult<ModelList<DashboardModel>>> GetClientDashboardAsync(string userName)
